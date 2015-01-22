@@ -15,10 +15,7 @@ found = False
 filter_data=[]
 for record in data:
     if str(record["sector"]) == sector3:
-        filter_data.append()
-        filter_data.append()
         print record
-        
         found = True
 
 print filter_data
